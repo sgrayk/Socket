@@ -4,11 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info</title>
-    <link rel="stylesheet" type="text/css" href= "{{url_for('static',filename='./members/style.css')}}">
-    <link rel="stylesheet" type="text/css" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
     <link rel="stylesheet" type="text/css" href= "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='members/StyleMember.css') }}">
+    <!-- <link rel="stylesheet" href="StyleMember.css"> -->
 </head>
 <body>
-hello day la thanh vien 
+
+	<div id="admWrapsite">
+		<div class="wp1000 wfull ">
+			<div class="content clearfix">
+
+				<div class="contentleft">
+
+					<div class="newsupdate" data-marked-zoneid="gamek_home_b4">
+					<h2 class="top">
+					<a href="#">THÀNH VIÊN</a></h2>
+						<div data-check-position="gamek_home_position_start"></div>
+
+							<ul id="fistUpload1">
+
+
+								<li class="top" data-boxtype="timelineposition" data-locked="false" data-posid="307843" data-order="0" id="flagLi1">
+
+
+								<img alt="Trà Anh Toan 18120662" src= "{{ url_for('static',filename='members/img/AnhToan.jpg') }}" width="310px" height="200px">
+								<div class="info">
+								<h3><a data-id="20200710223610721" href="#">Trà Anh Toàn</a></h3>
+								<p>MSSV: 18120662</p>
+								<p>Trường: ĐH KHTN</p>
+
+								</div>
+								</li>
+
+
+
+
+
+
+								<li class="top" data-boxtype="timelineposition" data-locked="false" data-posid="307851" data-order="1">
+
+
+								<img alt="Võ Thế Minh 18120211" src="{{ url_for('static',filename='members/img/TheMinh.jpg') }}" width="310px" height="200px">
+								<div class="info"><h3><a data-id="20200708155934799" href="#">Võ Thế Minh</a></h3>
+								<p>MSSV: 18120211</p>
+								<p>Trường: ĐH KHTN</p>
+
+								</div>
+								</li>
+
+
+
+
+
+
+								<li class="top" data-boxtype="timelineposition" data-locked="false" data-posid="307785" data-order="2">
+
+
+								<img alt="Nguyễn Điền Thanh Phong 18120221" src="{{ url_for('static',filename='members/img/ThanhPhong.jpg') }}" width="310px" height="200px">
+								<div class="info">
+								<h3><a data-id="20200709171622424" href="#">Nguyễn Điền Thanh Phong</a></h3>
+								<p>MSSV: 18120221</p>
+								<p>Trường: ĐH KHTN</p>
+
+								</div>
+								</li>
+
+
+
+
+							</ul>
+						<div data-check-position="gamek_home_position_end" class="clearfix"></div>
+					</div>
+
+
+				</div>
+
+			</div>	
+		</div>
+		
+	</div>
+
+	
 </body>
 </html>

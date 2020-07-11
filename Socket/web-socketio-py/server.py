@@ -2,6 +2,7 @@
 #Requirement: install Flask and Flask-socketio
 from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
+import socket
 
 # Templates include pages: login, info, 404
 app = Flask(__name__, static_folder='./templates', template_folder='./templates') # point to current folder
@@ -46,4 +47,4 @@ def handle_login(data):
 
 # Start server: python server.py
 if __name__ == '__main__':
-    socketio.run(app)
+    socketio.run(app, host = socket.gethostbyname(socket.gethostname()), port = 5000, debug = True)

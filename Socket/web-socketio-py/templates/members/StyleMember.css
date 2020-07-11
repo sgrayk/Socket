@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #333;
+    width: 100%;
+    height: 100%;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h2, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: none;
+}
+
+element.style {
+}
+.content {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.GamekPlayer, .GamekPlayer:focus, button, button:focus, div, div:focus, input, input:focus {
+    outline: 0;
+}
+.contentleft {
+    width: 860px;
+    float: left;
+}
+.newsupdate {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.newsupdate h2.top {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    background: #c6c5c5;
+    height: 35px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.newsupdate h2.top a {
+    color: #fff;
+    width: 137px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #d21a32;
+    float: left;
+}
+.newsupdate ul {
+    position: relative;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    padding-inline-end:	20px;
+}
+.wp1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+.newsupdate ul li {
+    float: left;
+    width: 100%;
+    border: 1px solid #ededed;
+    background: #f4f3f3;
+    margin-top: 15px;
+    position: relative;
+    -webkit-transition: opacity .8s ease-in;
+    -moz-transition: opacity .8s ease-in;
+    -o-transition: opacity .8s ease-in;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    display: list-item;
+}
+a, img, input {
+    outline: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+element.style {
+}
+.newsupdate ul li .info {
+    width: 100%;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.newsupdate ul li.top p {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.newsupdate ul li.top h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
